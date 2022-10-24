@@ -28,7 +28,7 @@ const options = {
           options.spanMins.textContent = minutes;
           options.spanSecs.textContent = seconds;
           if (options.spanSecs.textContent === '00') {
-            Notiflix.Notify.success('Congratulation!!!');
+            Notiflix.Notify.success('Congratulation!');
             options.startBtn.disabled = true;
             clearInterval(options.intervalId);
           }
